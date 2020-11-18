@@ -25,7 +25,7 @@ const HomePage = () => (
         <div className="row">
           <div className="col-lg-6">
             <h2 className="heading">About Me</h2>
-            <p className="lead"></p>
+            <p className="lead">Hi, my name is Tyler Peterson</p>
             <p>While growing up in Minneapolis I was never exposed to the tradition of sauna, I never knew about the absolute serenity of stepping into a 180 degree sauna while the snow’s coming down and the wind chill puts us somewhere below 0 
 degrees. Thanks to Rodney Bhursith and John Pederson the sauna has been revived within the heart of the Minneapolis community, as well as stoked my ambitions to spark sauna culture in the mile high city. Since my first session in a true wood burning sauna I’ve had many enlightening moments while in solitude and in deep meditation as well as many great conversations with therapeutic undertones. I have chosen to adopt sauna as one of my habitual wellness practices for my overall wellbeing and the wellbeing of all around me. 
 </p>
