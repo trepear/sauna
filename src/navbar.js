@@ -11,10 +11,10 @@ const Results = () => (
                 <Link to='/' className="nav-link link-scroll">Home</Link>
             </li>
             <li>
-                <Link to='/about' className="nav-link link-scroll">Resume</Link>
+                <Link to='/about' className="nav-link link-scroll">About</Link>
             </li>
             <li>
-                <Link to='/gallery' className="nav-link link-scroll">Gallery</Link>
+                <Link to='/contact' className="nav-link link-scroll">Contact</Link>
             </li>
         </ul>
     </div>
