@@ -36,7 +36,7 @@ const HomePage = () => (
               </div>
               <div className="col-md-6" id="content">
                 
-                <p className="italic">Just a Small camp of like minded, open individuals who are deepening the connection of body, mind, & self  all while holding the values of growth, wellness & community which have led to exploring the benefits of an ancient  tradition of heating and cooling the body to boost immunity, create bloodflow, rid toxins from within. going beyond mental & physical limitations while in the same breath releasing stress and allowing oneself to relax and just be… Let me explain a bit more <Link to='/about'>here.</Link></p> 
+                <p>Just a Small camp of like minded, open individuals who are deepening the connection of body, mind, & self  all while holding the values of growth, wellness & community which have led to exploring the benefits of an ancient  tradition of heating and cooling the body to boost immunity, create bloodflow, rid toxins from within. going beyond mental & physical limitations while in the same breath releasing stress and allowing oneself to relax and just be… Let me explain a bit more <Link to='/about'>here.</Link></p> 
               </div>
               
             </div>

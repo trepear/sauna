@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import './App.css';
+// import './App.css';
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import HomePage from './pages/home';
 import AboutPage from './pages/about';
 import GalleryPage from './pages/gallery';
 import RentalsPage from './pages/rentals';
-
 import {
   BrowserRouter as Router,
   Route 
