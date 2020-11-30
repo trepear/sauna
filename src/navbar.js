@@ -16,6 +16,9 @@ const Results = () => (
             <li>
                 <Link to='/contact' className="nav-link link-scroll">Contact</Link>
             </li>
+            <li>
+                <Link to='/rentals' className="nav-link link-scroll">Rentals</Link>
+            </li>
         </ul>
     </div>
 )
@@ -27,11 +30,11 @@ const Results = () => (
 //     });
 //   }
 
-const NavBar = () => {
+const NavBar = () => {   
 
     const [showResults, setShowResults] = React.useState(false)
     const onClick = () => {
-        setShowResults({true: !true});
+        setShowResults({ true: !true });
     }
 
     return (
@@ -41,7 +44,7 @@ const NavBar = () => {
                     <p className="social" id="socials">
                         <a href={"https://www.instagram.com/tyler_was_wrong/"} title="" className="gplus" target="blank">
                             <FontAwesomeIcon icon={['fab', 'instagram']} /></a>
-                            <a href={"mailto:smallcampsaunas@gmail.com"} title="" className="gplus" target="blank">
+                        <a href={"mailto:smallcampsaunas@gmail.com"} title="" className="gplus" target="blank">
                             <FontAwesomeIcon icon='envelope' /></a>
                     </p>
                     {/* <Link to="#intro" className="navbar-brand link-scroll"><img src="" alt="" className="img-fluid" /></Link> */}
@@ -57,6 +60,9 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <Link to='/contact' className="nav-link link-scroll">Contact</Link>
+                            </li>
+                            <li>
+                                <Link to='/rentals' className="nav-link link-scroll">Rentals</Link>
                             </li>
                         </ul>
                     </div>
